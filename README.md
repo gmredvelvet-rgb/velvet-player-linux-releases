@@ -1,26 +1,13 @@
 # Velvet Player Linux downloads
 
-[Download Velvet Player Linux 0.1.2 Preview](https://github.com/gmredvelvet-rgb/velvet-player-linux-releases/releases/tag/v0.1.2-preview.1).
-This repository contains release packages and public update metadata; source is maintained separately.
+[Download Velvet Player Linux 0.1.3 Preview](https://github.com/gmredvelvet-rgb/velvet-player-linux-releases/releases/tag/v0.1.3-preview.1).
 
-Players enter without a Velvet access key, invitation code, Patreon sign-in or unlocked desktop
-keyring. Choose **I am a player**, enter your GM's Foundry HTTPS address and sign in with your normal
-Foundry player account. Existing invited players migrate automatically. Foundry and TaleSpire still
-enforce their own account and miniature permissions. This is a player-only launcher.
+Player launcher for Linux x86_64 with an X11 desktop and native Steam/Proton, including Steam Deck Desktop Mode. Supports TaleSpire Full and Guest Edition. Real game/hardware validation is ongoing; Wayland, Gaming Mode and Flatpak Steam are outside this preview.
 
-For Linux x86_64 PCs using an X11 desktop and Steam Deck Desktop Mode. Native Steam and Proton are
-required for TaleSpire Full or Guest Edition. Wayland, Gaming Mode and Flatpak Steam are outside
-this preview. Real game and hardware validation is ongoing.
+Already installed 0.1.1 or 0.1.2? Use **Check for updates**, then **Update & restart** in the launcher. It downloads, verifies and installs the update automatically and preserves your settings and mini packs. No manual reinstall, GitHub account, invitation, access key or desktop keyring is required.
 
-Download the `.tar.gz` and matching `.sha256`, verify and extract them on Linux, then run
-`./install.sh` without sudo. Open **Velvet Player Linux** from the applications menu. Use the included
-README for the Proton launch option and Symbiote setup.
+For a first installation, download the tar.gz and matching sha256 from the versioned release, verify and extract them on Linux, then run ./install.sh without sudo. The included README explains the Proton launch option and Symbiote setup. Close TaleSpire before the next Play to apply native Field Kit 0.7.1.
 
-Installed 0.1.1 clients can use **Check for updates → Update & restart**. Updates retain signed
-metadata, size and SHA256 verification. No GitHub account or token is needed. The `linux-preview`
-release stores signed channel metadata; use the versioned release for the installation archive.
+This update includes spell-area placement, current shared Field Kit tools and an End session tray action. The GM needs TaleSpire Canvas Bridge 0.4.37 and Foundry Rolls Bridge 1.3.1 for the latest PF2e critical/compound dice and actor-search fixes. The player launcher does not change the remote server.
 
-The GM should update the Foundry module to 0.4.33 for PF2e roll/target and image fixes served by the
-GM's Foundry server. The Linux player launcher does not install or host the GM's Foundry module.
-
-Never share Foundry credentials or local bridge tokens when reporting a problem.
+The linux-preview release contains the signed update channel metadata. Download the application from the versioned release above. Never share your Foundry credentials or local bridge token.
