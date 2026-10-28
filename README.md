@@ -1,16 +1,18 @@
 # Velvet Player Linux downloads
 
-[Download Velvet Player Linux 0.1.5 Preview](https://github.com/gmredvelvet-rgb/velvet-player-linux-releases/releases/tag/v0.1.5-preview.1).
+[Download Velvet Player Linux 0.1.6 Preview](https://github.com/gmredvelvet-rgb/velvet-player-linux-releases/releases/tag/v0.1.6-preview.1).
 
 For Linux x86_64, system Steam and Proton. Supports composited X11 and KDE Plasma Wayland through XWayland, including Nobara and Steam Deck Desktop Mode. Keep your KDE Wayland desktop; Velvet and TaleSpire use XWayland windows.
 
-## New in 0.1.5
+## New in 0.1.6
+
+Adds a local custom weapon library: import rigid GLB files, or convert FBX through locally installed Blender, adjust the grip and select each model per character/item. Files live in TaleSpire/BepInEx/plugins/VelvetFieldKit/CustomAssets/Weapons and survive updates. No repackaging is needed per model. Requires the GM to serve Canvas Bridge 1.0.10 or newer.
 
 Includes first/third-person cameras, original hands and weapons, equipped/raised PF2e shields, Foundry-triggered attacks, spell VFX, auras, per-character vision/Fog of War, linked loot and the per-character weapon appearance selector. This player uses its own TaleSpire through Proton. No stream, video capture, WebRTC or second instance is included. The GM must serve the compatible updated Foundry interface.
 
 ## Updating an older launcher blocked on Nobara
 
-If the old launcher reports Native Wayland is not supported before it shows Update, close Velvet and download [Actualizar-Velvet-Linux.sh](https://github.com/gmredvelvet-rgb/velvet-player-linux-releases/releases/download/v0.1.5-preview.1/Actualizar-Velvet-Linux.sh). In the download folder run:
+If the old launcher reports Native Wayland is not supported before it shows Update, close Velvet and download [Actualizar-Velvet-Linux.sh](https://github.com/gmredvelvet-rgb/velvet-player-linux-releases/releases/download/v0.1.6-preview.1/Actualizar-Velvet-Linux.sh). In the download folder run:
 
     sh Actualizar-Velvet-Linux.sh
 
